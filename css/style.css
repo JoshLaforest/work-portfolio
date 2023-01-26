@@ -36,6 +36,12 @@ h2 {
   font-size: clamp(1.875rem, 1.6667rem + 0.9259vw, 2.5rem);
   text-shadow: 3px 3px 0 var(--accent);
   letter-spacing: 0.02em;
+  border: solid 1px var(--element-bg-color);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 15px;
+  margin-bottom: 60px;
 }
 
 h3 {
@@ -46,6 +52,7 @@ h3 {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .btn {
@@ -103,6 +110,9 @@ h3 {
   align-items: center;
   padding: 15px;
   border: solid 1px var(--element-bg-color);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .navmenu {
