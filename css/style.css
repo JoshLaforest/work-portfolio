@@ -48,6 +48,10 @@ h3 {
   font-size: clamp(1.25rem, 1.0833rem + 0.7407vw, 1.75rem);
 }
 
+i {
+  font-size: 1.5625em;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -89,7 +93,6 @@ h3 {
   text-decoration: none;
   color: var(--body-bg-color);
   transition: color ease-in-out 0.2s;
-  font-size: 1.5625em;
 }
 
 .social-icon:hover,
@@ -232,4 +235,28 @@ h3 {
   align-items: center;
   gap: 60px;
   border-radius: 10px 10px 50px 25px;
+}
+
+.services-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.services-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 10px 10px 0 0;
+  border: solid 1px var(--element-bg-color);
+  padding: 20px 0;
+  background-color: var(--accent);
+}
+
+.services-content {
+  padding: 30px 15px;
+  background-color: var(--element-bg-color);
+  color: var(--body-bg-color);
+  border-radius: 0 0 60px 25px;
 }
