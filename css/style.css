@@ -260,3 +260,51 @@ i {
   color: var(--body-bg-color);
   border-radius: 0 0 60px 25px;
 }
+
+form {
+  padding: 0 15px;
+  display: flex; 
+  flex-direction: column;
+}
+
+form .btn {
+  align-self: flex-start;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+input, 
+textarea {
+  background-color: var(--body-bg-color);
+  border: solid 1px var(--element-bg-color);
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: #666666;
+}
+
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  color: var(--element-bg-color);
+}
+
+
+input {
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-bottom: 40px;
+}
+
+input[type=submit] {
+  color: var(--element-bg-color);
+}
+
