@@ -12,6 +12,7 @@
 body {
     font-family: 'Supreme', sans-serif;
     background-color: var(--body-bg-color);
+    color: var(--element-bg-color);
 }
 
 h1,
@@ -70,4 +71,16 @@ h3 {
 .btn-secondary:focus {
     box-shadow: none;
     transform: translateX(8px) translateY(8px);
+}
+
+.social-icon {
+    text-decoration: none;
+    color: var(--body-bg-color);
+    transition: color ease-in-out .2s;
+    font-size: 1.5625em;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    color: var(--accent);
 }
