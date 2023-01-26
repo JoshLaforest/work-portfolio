@@ -182,3 +182,44 @@ h3 {
 .hero-img-bg {
   transform: rotate(4.57deg);
 }
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 0 15px;
+}
+
+.project-img-wrapper {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.project-img {
+    position: absolute;
+    z-index: 50;
+    transform: rotate(-4.57deg);
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px rgba(15, 15, 21, .15);
+}
+
+.project-img-bg {
+    transform: rotate(4.57deg);
+}
+
+.project-title {
+    margin-bottom: 20px;
+}
+
+.project-description {
+    margin-bottom: 40px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
