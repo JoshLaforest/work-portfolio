@@ -74,9 +74,22 @@ ul {
 /* Logo */
 .logo {
   display: inline-block;
-  color: var(--element-bg-color);
+  color: var(--body-bg-color);
+  background-color: var(--element-bg-color);
   font-size: 60px;
   margin-left: 15px;
+  padding: 0 10px;
+  border: solid 2px var(--brown);
+  border-radius: 10px;
+  transition: 
+  background-color ease-in-out .2s,
+  color ease-in-out .2s
+  ;
+}
+
+.logo:hover {
+  background-color: var(--body-bg-color);
+  color: var(--element-bg-color);
 }
 
 /* Nav menu */
