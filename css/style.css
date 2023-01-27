@@ -91,12 +91,24 @@ ul {
 .menu a {
   display: block;
   padding: 30px;
-  color: var(--body-bg-color);
+  background-color: var(--body-bg-color);
+  color: var(--element-bg-color);
   text-transform: uppercase;
+  padding: 5px 10px;
+  border: solid 2px var(--brown);
+  border-radius: 10px;
+  margin: 1em;
+  transition: 
+  background-color ease-in-out.2s,
+  color ease-in-out .2s,
+  border ease-in-out .2s
+  ;
 }
 
 .menu a:hover {
-  background-color: var(--brown);
+  background-color: var(--element-bg-color);
+  color: var(--body-bg-color);
+  border: solid 2px var(--accent);
 }
 
 .nav {
@@ -195,13 +207,22 @@ ul {
 
 .social-icon {
   text-decoration: none;
-  color: var(--body-bg-color);
-  transition: color ease-in-out 0.2s;
+  color: var(--element-bg-color);
+  background-color: var(--body-bg-color);
+  padding: 5px 10px;
+  border: solid 2px var(--brown);
+  border-radius: 10px;
+  transition: 
+  background-color ease-in-out.2s,
+  color ease-in-out .2s,
+  border ease-in-out .2s
+  ;
 }
 
-.social-icon:hover,
-.social-icon:focus {
-  color: var(--accent);
+.social-icon:hover {
+  background-color: var(--element-bg-color);
+  color: var(--body-bg-color);
+  border: solid 2px var(--accent);
 }
 
 .brand {
@@ -433,8 +454,23 @@ input[type="submit"] {
 
 .footer a {
   text-transform: uppercase;
-  color: var(--body-bg-color);
+  background-color: var(--body-bg-color);
+  color: var(--element-bg-color);
   letter-spacing: 0.05em;
+  padding: 5px 10px;
+  border: solid 2px var(--brown);
+  border-radius: 10px;
+  transition: 
+  background-color ease-in-out.2s,
+  color ease-in-out .2s,
+  border ease-in-out .2s
+  ;
+}
+
+.footer a:hover {
+  background-color: var(--element-bg-color);
+  color: var(--body-bg-color);
+  border: solid 2px var(--accent);
 }
 
 .copyright {
@@ -545,6 +581,20 @@ input[type="submit"] {
     padding: 0;
   }
 }
+
+@media (min-width: 769px) {
+  .menu a {
+    background-color: var(--element-bg-color);
+    color: var(--body-bg-color);
+  }
+
+  .menu a:hover {
+    background-color: var(--body-bg-color);
+    color: var(--element-bg-color);
+    border: solid 2px var(--brown);
+  }
+}
+
 
 @media (min-width: 992px) {
   .container {
