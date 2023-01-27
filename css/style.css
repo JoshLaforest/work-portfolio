@@ -255,7 +255,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .hero-right {
@@ -359,7 +359,7 @@ ul {
   gap: 20px;
   border-radius: 10px 10px 0 0;
   border: solid 1px var(--element-bg-color);
-  padding: 20px 0;
+  padding: 20px 5px;
   background-color: var(--accent);
 }
 
@@ -661,12 +661,13 @@ input[type="submit"] {
   .footer-top {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
   }
 
   .footer-top-right {
     align-items: flex-end;
     margin: 0;
-    gap: 10px;
+    gap: 20px;
   }
 
   .footer-nav {
