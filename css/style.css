@@ -68,8 +68,10 @@ ul {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 60px;
   z-index: 99;
   border: solid 1px var(--element-bg-color);
+  border-radius: 10px;
 }
 /* Logo */
 .logo {
@@ -77,7 +79,6 @@ ul {
   color: var(--body-bg-color);
   background-color: var(--element-bg-color);
   font-size: 60px;
-  margin-left: 15px;
   padding: 0 10px;
   border: solid 2px var(--brown);
   border-radius: 10px;
@@ -261,7 +262,7 @@ ul {
   text-align: center;
   gap: 60px;
   padding: 60px 0;
-  border-radius: 0 0 100px 30px;
+  border-radius: 10px 10px 100px 30px;
 }
 
 .hero-left {
@@ -363,6 +364,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 60px;
+  padding: 0 15px;
 }
 
 .services-card-header {
@@ -512,11 +514,11 @@ input[type="submit"] {
     margin-bottom: 80px;
   }
 
-  .header {
-    border-radius: 10px 10px 0 0;
+  .container {
+    margin-bottom: 100px;
   }
 
-  .container {
+  .header {
     margin-bottom: 100px;
   }
 
@@ -549,7 +551,7 @@ input[type="submit"] {
   .hero {
     flex-direction: row;
     min-height: 550px;
-    border-radius: 0 0 200px 60px;
+    border-radius: 10px 10px 200px 60px;
     gap: 45px;
   }
 
@@ -611,6 +613,10 @@ input[type="submit"] {
 
 @media (min-width: 992px) {
   .container {
+    margin-bottom: 120px;
+  }
+
+  .header {
     margin-bottom: 120px;
   }
 
